@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		B898FAED282F70EE000A98AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FAEC282F70EE000A98AE /* AppDelegate.swift */; };
 		B898FAEF282F70EE000A98AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FAEE282F70EE000A98AE /* SceneDelegate.swift */; };
-		B898FAF1282F70EE000A98AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FAF0282F70EE000A98AE /* ViewController.swift */; };
 		B898FAF4282F70EE000A98AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B898FAF2282F70EE000A98AE /* Main.storyboard */; };
 		B898FAF6282F70F2000A98AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B898FAF5282F70F2000A98AE /* Assets.xcassets */; };
 		B898FAF9282F70F2000A98AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B898FAF7282F70F2000A98AE /* LaunchScreen.storyboard */; };
+		B898FB03282F7279000A98AE /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = B898FB01282F7278000A98AE /* tail.png */; };
+		B898FB04282F7279000A98AE /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B898FB02282F7278000A98AE /* bar.png */; };
+		B898FB06282F73B4000A98AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FB05282F73B4000A98AE /* ViewController.swift */; };
+		B898FB08282F7410000A98AE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FB07282F7410000A98AE /* GameViewController.swift */; };
+		B898FB0A282F743B000A98AE /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898FB09282F743B000A98AE /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B898FAE9282F70EE000A98AE /* Barabaragame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barabaragame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B898FAEC282F70EE000A98AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B898FAEE282F70EE000A98AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B898FAF0282F70EE000A98AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B898FAF3282F70EE000A98AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B898FAF5282F70F2000A98AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B898FAF8282F70F2000A98AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B898FAFA282F70F2000A98AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B898FB01282F7278000A98AE /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		B898FB02282F7278000A98AE /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		B898FB05282F73B4000A98AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B898FB07282F7410000A98AE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B898FB09282F743B000A98AE /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		B898FAEB282F70EE000A98AE /* Barabaragame */ = {
 			isa = PBXGroup;
 			children = (
+				B898FB00282F7278000A98AE /* Barabara素材 */,
 				B898FAEC282F70EE000A98AE /* AppDelegate.swift */,
 				B898FAEE282F70EE000A98AE /* SceneDelegate.swift */,
-				B898FAF0282F70EE000A98AE /* ViewController.swift */,
 				B898FAF2282F70EE000A98AE /* Main.storyboard */,
 				B898FAF5282F70F2000A98AE /* Assets.xcassets */,
 				B898FAF7282F70F2000A98AE /* LaunchScreen.storyboard */,
 				B898FAFA282F70F2000A98AE /* Info.plist */,
+				B898FB05282F73B4000A98AE /* ViewController.swift */,
+				B898FB07282F7410000A98AE /* GameViewController.swift */,
+				B898FB09282F743B000A98AE /* RankingViewController.swift */,
 			);
 			path = Barabaragame;
+			sourceTree = "<group>";
+		};
+		B898FB00282F7278000A98AE /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				B898FB01282F7278000A98AE /* tail.png */,
+				B898FB02282F7278000A98AE /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B898FAF9282F70F2000A98AE /* LaunchScreen.storyboard in Resources */,
+				B898FB04282F7279000A98AE /* bar.png in Resources */,
+				B898FB03282F7279000A98AE /* tail.png in Resources */,
 				B898FAF6282F70F2000A98AE /* Assets.xcassets in Resources */,
 				B898FAF4282F70EE000A98AE /* Main.storyboard in Resources */,
 			);
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B898FAF1282F70EE000A98AE /* ViewController.swift in Sources */,
+				B898FB0A282F743B000A98AE /* RankingViewController.swift in Sources */,
+				B898FB08282F7410000A98AE /* GameViewController.swift in Sources */,
+				B898FB06282F73B4000A98AE /* ViewController.swift in Sources */,
 				B898FAED282F70EE000A98AE /* AppDelegate.swift in Sources */,
 				B898FAEF282F70EE000A98AE /* SceneDelegate.swift in Sources */,
 			);
@@ -297,6 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
